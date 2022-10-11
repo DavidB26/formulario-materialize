@@ -55,6 +55,10 @@ table {
     margin-top: 40px;
 }
 
+.mt-3{
+    margin-top: 30px;
+}
+
 
 
 /*  fontSize: */
@@ -75,7 +79,7 @@ table {
 
 /*Estilos Cabecera*/
 
-.form{
+.form-box{
     margin-block-start: 1rem;
 }
 
@@ -157,5 +161,66 @@ table {
     color: black;
     font-weight: bold;
  
+}
+.form-img img {
+    vertical-align: middle;
+    border-radius: 10px;
+}
+
+
+
+@media screen and (min-width:767px){
+ 
+
+    .form-principal{
+        max-width: 880px;
+        margin: auto;
+    }
+
+    .form-header{
+        block-size: 7rem;
+        border-radius: 10px;
+        position: relative;
+        padding: 0 15px 0 54px;
+        z-index: 10;
+        margin-bottom: -30px;
+    }
+
+    .material-icons{
+        font-size: 50px;
+    }
+
+
+    .form-body{
+        border-radius: 10px;
+        position: relative;
+        z-index: 100;
+    }  
+
+    .form-img{
+        padding: 0 !important;
+    }
+   
+
+    .input-field{
+        margin-top: .5rem;
+        margin-bottom: .5rem;
+    }
+    .form-input{
+        padding: 20px 70px 0 !important;
+    }
+
+    .btn-large {
+        height: 74px;
+        line-height: 74px;
+        font-size: 28px;
+        padding: 0 28px;
+    }
+
+    .h-100{
+        height: 100vh;
+    }
+    
+    
 }
 
