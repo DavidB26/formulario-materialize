@@ -1,24 +1,106 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      href="https://fonts.googleapis.com/icon?family=Material+Icons"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css"
+    />
+    <link rel="stylesheet" href="./css/style.css" />
     <title>Document</title>
-    <!--Import Google Icon Font-->
-    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+  </head>
+  <body>
 
-    <!-- Compiled and minified CSS -->
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
-</head>
-<body>
-    
-
-    <div class="container">
-        <h1 class="blue-text">Hola Mundo!</h1>
+   <div class="container">
+      <div class="form">
+        <div class="form-header mt-0 mb-0 row valign-wrapper margin bottom-0 black">
+          <div class="col s9">
+            <p class="margin top-0 margin bottom-0 white-text">Contáctanos</p>
+          </div>
+          <div class="col s3 center-align">
+            <i class="material-icons white-text">close</i>
+          </div>
+        </div>
+        <div class="form-input">
+          <div class="row mt-0 mb-0">
+            <form class="col s12">
+              <div class="row mt-0 mb-0">
+                <div class="input-field col s12">
+                  <input
+                    placeholder="Nombre"
+                    id="nombre"
+                    type="text"
+                    class="validate"
+                  />
+                </div>
+              </div>
+              <div class="row mt-0 mb-0">
+                <div class="input-field col s12">
+                  <input
+                    placeholder="Apellido"
+                    id="apellido"
+                    type="text"
+                    class="validate"
+                  />
+                </div>
+              </div>
+              <div class="row mt-0 mb-0">
+                <div class="input-field col s12">
+                  <input
+                    placeholder="Email"
+                    id="email"
+                    type="email"
+                    class="validate"
+                  />
+                </div>
+              </div>
+              <div class="row mt-0 mb-0">
+                <div class="input-field col s12">
+                  <input
+                    placeholder="Teléfono (+519...)"
+                    id="telefono"
+                    type="tel"
+                    class="validate"
+                  />
+                </div>
+              </div>
+              <div class="row mt-0 mb-0">
+                <div class="input-field col s12">
+                  <input
+                    placeholder="RUC"
+                    id="ruc"
+                    type="number"
+                    class="validate"
+                  />
+                </div>
+              </div>
+             <div class="row mt-0 mb-0"">
+               <div class="col s12">
+                <p>
+                    <label>
+                      <input type="checkbox" class="filled-in"/>
+                      <span class="black-text sm">Aceptar <a class="sm">términos y condiciones</a></span>
+                    </label>
+                  </p>
+               </div>
+             </div>
+              <div class="row mt-4">
+                <div class="col s12">
+                    <a class="waves-effect waves-light btn-large">CONTÁCTANOS</a>
+                </div>
+              </div>
+            </form>
+          </div>
+        </div>
+        <img class="responsive-img" src="./images/keys.webp">
+      </div>
     </div>
-
-    <!-- Compiled and minified JavaScript -->
     <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
-</body>
+  </body>
 </html>
